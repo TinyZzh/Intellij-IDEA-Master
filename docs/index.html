@@ -1,46 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./web/themes/css/theme-simple-dark.css">
-  <!-- <link rel="stylesheet" href="./web/themes/css/theme-search.css"> -->
+  <link rel="stylesheet" href="./web/themes/css/theme-search.css">
+  <link rel="stylesheet" href="./web/themes/css/theme-pagination.css">
+  <!-- <link rel="stylesheet" href="./web/css/gitalk.css"> -->
   <style>
     :root {
       /* Reduce the font size */
       --base-font-size: 14px;
-  
+
       /* Change the theme color hue */
       --theme-hue: 325;
-  
+
       /* Change the sidebar bullets */
       --sidebar-nav-link-before-content: '';
     }
   </style>
 </head>
+
 <body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=233621356"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '233621356');
+  </script>
   <div id="app"></div>
   <script>
     window.$docsify = {
-        name:'Intellij IDEA修炼指南',
-        logo:'./web/intellij-idea.png',
-        // 侧边栏
-        loadSidebar: true,
-        subMaxLevel: 3,
-        coverpage: true,
-        repo: 'https://github.com/TinyZzh/Intellij-IDEA-Master',
-        homepage:'README.md',
-        search: 'auto',
-        search: {
-            depth      : 3,
-            noData     : 'No results!',
-            placeholder: 'Search...'
-        }
+      name: 'Intellij IDEA修炼指南',
+      logo: './web/intellij-idea.png',
+      // 侧边栏
+      loadSidebar: true,
+      subMaxLevel: 3,
+      coverpage: true,
+      repo: 'https://github.com/TinyZzh/Intellij-IDEA-Master',
+      homepage: 'README.md',
+      search: 'auto',
+      search: {
+        depth: 3,
+        noData: 'No results!',
+        placeholder: 'Search...'
+      },
+      disqus: 'my-intellij-idea-master'
     }
   </script>
   <script src="./web/js/docsify.min.js"></script>
+  <script src="./web/js/docsify-pagination.min.js"></script>
+  <script src="./web/js/docsify-search.min.js"></script>
+  <script src="./web/js/disqus.min.js"></script>
   <script src="./web/themes/js/docsify-themeable@0.js"></script>
   <script src="./web/themes/js/zoom-image.min.js"></script>
+
+  <!-- 
+  <script src="./web/js/docsify-gitalk.min.js"></script>
+  <script src="./web/js/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+      clientID: '19977b0c90236c40dd27',
+      clientSecret: 'd6b108e97bef3233946c3413e2a5bb50e16a6203',
+      repo: 'Intellij-IDEA-Master',
+      owner: 'TinyZzh',
+      admin: ['TinyZzh'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script> -->
 </body>
+
 </html>

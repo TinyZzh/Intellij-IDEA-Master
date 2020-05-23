@@ -12,13 +12,5 @@
 - 环境 : `Windows 10`, `Intellij IDEA 2020.1`
 
 [GitHub](https://github.com/TinyZzh/Intellij-IDEA-Master)
-[内功](#README)
-[外功](#README)
-
-<!-- 背景图片 -->
-
-![](_media/bg.png)
-
-<!-- 背景色 -->
-
-![color](#f0f0f0)
+[内功](/)
+[外功](/)
