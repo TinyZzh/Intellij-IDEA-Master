@@ -7,7 +7,7 @@
 
 访问 [AIXcoder 官网](https://www.aixcoder.com/) 查看更多信息。
 
-> `JetBrains`全家桶 2020.1版本开始以全面支持。**[开启设置](/zh-cn/301_常用设置?id=_15-深度学习辅助补全)**
+> `JetBrains`全家桶 2020.1版本开始以全面支持。**[开启设置](/zh-cn/301_常用设置?id=_18-深度学习辅助补全)**
 
 <div align="center"><img src="./images/1002/2.png" alt="图1"/></div>
 <div align="center"><img src="./images/1002/3.png" alt="图1"/></div>
