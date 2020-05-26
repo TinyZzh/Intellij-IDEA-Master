@@ -9,4 +9,8 @@
 下卷 - 外功篇主要介绍常用或有特色的插件。
 
 
-本修炼指南基于Windows 10操作系统和Intellij IDEA 2020版本。相关内容和18、19或其他版本的IDEA对比可能会有些许出入。
+> :warning:本修炼指南基于`Windows 10`操作系统和`Intellij IDEA 2020.1`版本。**相关内容和资料可能与其他版本IDEA有些许出入**。
+
+> 除非另有声明，本网站内容采用 **[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)** 授权  ![知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](./images/cc-by-nc-sa.png ":no-zoom")
+
+
