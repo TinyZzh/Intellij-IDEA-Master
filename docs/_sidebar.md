@@ -8,6 +8,7 @@
 * [版本控制](zh-cn/111_版本控制.md)
 * [代码重构](zh-cn/700_代码重构.md)
 * [静态代码检查](zh-cn/450_静态代码检查.md)
+* [`Alt`+`Enter`快捷键实战](499_Alt_Enter快捷键实战.md)
 * [Emmet](zh-cn/209_Emmet.md)
 * 外功篇
 * [阿里巴巴Java代码规范](zh-cn/1000_阿里巴巴Java代码规范.md)
